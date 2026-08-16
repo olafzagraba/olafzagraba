@@ -1,0 +1,262 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 660" width="1200" height="660" role="img" aria-label="OLAF ZAGRABA — ASCII portrait">
+<style>
+
+    .bg{fill:#0b0e14}
+    .frame{fill:none;stroke:#1d2430;stroke-width:1}
+    text{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace;white-space:pre}
+    .px{font-size:8.2px;fill:#c9d1d9;opacity:0;animation:lock .22s ease-out forwards}
+    .nz{font-size:8.2px;fill:#f0566d;opacity:0;animation:flick .09s steps(1) forwards}
+    .scan{fill:#f0566d;opacity:.16;animation:scan 1.58s linear forwards}
+    .name{font-size:46px;font-weight:700;fill:#f2f6fa;letter-spacing:2px;opacity:0;
+          animation:slide .5s cubic-bezier(.2,.9,.2,1) 1.23s forwards}
+    .rule{stroke:#f0566d;stroke-width:2;stroke-dasharray:420;stroke-dashoffset:420;
+          animation:draw .6s ease-out 1.38s forwards}
+    .k{font-size:15px;fill:#f0566d}
+    .v{font-size:15px;fill:#8b98a8}
+    .ln{opacity:0;animation:slide .4s ease-out forwards}
+    .foot{font-size:13px;fill:#5b6673;opacity:0;animation:slide .4s ease-out 2.18s forwards}
+    .caret{fill:#f0566d;opacity:0;animation:blink 1.05s steps(1) 2.33s infinite}
+    @keyframes lock{from{opacity:0}to{opacity:1}}
+    @keyframes flick{0%{opacity:.9}100%{opacity:0}}
+    @keyframes slide{from{opacity:0;transform:translateX(14px)}to{opacity:1;transform:translateX(0)}}
+    @keyframes draw{to{stroke-dashoffset:0}}
+    @keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+    @keyframes scan{
+      0%{transform:translateY(0);opacity:0}
+      6%{opacity:.22}
+      92%{opacity:.22}
+      100%{transform:translateY(549px);opacity:0}
+    }
+    .name,.ln,.foot{transform-box:fill-box}
+    @media (prefers-reduced-motion:reduce){
+      .nz,.scan{display:none}
+      .px,.name,.ln,.foot{opacity:1;animation:none}
+      .rule{stroke-dashoffset:0;animation:none}
+      .caret{opacity:1;animation:none}
+    }
+    
+</style>
+<rect class="bg" width="1200" height="660" rx="14"/>
+<rect class="frame" x="14" y="14" width="1172" height="632" rx="10"/>
+<circle cx="40" cy="34" r="5" fill="#f0566d" opacity=".85"/>
+<circle cx="60" cy="34" r="5" fill="#e3b341" opacity=".85"/>
+<circle cx="80" cy="34" r="5" fill="#3fb950" opacity=".85"/>
+<g transform="translate(52,46)">
+<rect class="scan" x="-6" y="0" width="602" height="3"/>
+<text class="nz" xml:space="preserve" x="49.2" y="8.2" style="animation-delay:0.02s">=&gt;  :   0 1  ,     #   #    $   00@@1   @  ~; * , &gt;        /      %     #  -       *          1          .</text>
+<text class="nz" xml:space="preserve" x="9.8" y="8.2" style="animation-delay:0.10s">+  =  -,    1    |     &gt; %     ; .     $+;~:/      0      =| ~             .  #  ,                          $       0</text>
+<text class="px" xml:space="preserve" x="162.4" y="8.2" style="animation-delay:0.18s">.        .,::,</text>
+<text class="nz" xml:space="preserve" x="4.9" y="16.6" style="animation-delay:0.04s">*         :,  &gt;                ~+0-&lt;,~&gt;;+.0@#;1&amp;&gt;~%.%&lt;&lt;,./#*    &lt;               1      &gt;           ;  0%     /&lt;    ;</text>
+<text class="nz" xml:space="preserve" x="29.5" y="16.6" style="animation-delay:0.12s">-       *# ;     /   &lt;    #.$01 |&lt;/.%@&amp;$@&amp;&amp;=$/1%,#$~:,;   1      &lt;  :      &amp;         ~ -  +            |*  @ +</text>
+<text class="px" xml:space="preserve" x="157.4" y="16.6" style="animation-delay:0.20s">,:-~, .:~*@&amp;&amp;&amp;*++@*+-~++-,,,.</text>
+<text class="nz" xml:space="preserve" x="24.6" y="25.1" style="animation-delay:0.06s">|                    *    ~ ~#*;.+*1&lt;$,%*|$1|;,$@1-&lt;%$-,%;,|+     =  =              1+  &gt;   *       $       %</text>
+<text class="nz" xml:space="preserve" x="9.8" y="25.1" style="animation-delay:0.14s">~#     =  =                     #--0-:/:@/-:&gt;%//&amp;&amp;#,=0*&lt;1&gt;&amp;/=0;#     ~%;                            &amp;  @       &amp;  . $</text>
+<text class="px" xml:space="preserve" x="167.3" y="25.1" style="animation-delay:0.22s">,*@*@$#$&amp;&amp;%$$#$$%%@**&amp;%%%%@+=-,.</text>
+<text class="nz" xml:space="preserve" x="93.5" y="33.5" style="animation-delay:0.08s">*  :    *      &amp;;&amp;~%+&lt;%|+&lt;&gt;1%/&amp;0@%%#-+|&lt;$.,#/&gt;&lt;=0   ,   =     # :   ,:   0    :     @        % &amp;:, *$</text>
+<text class="nz" xml:space="preserve" x="24.6" y="33.5" style="animation-delay:0.16s">@     :              &amp;       @&lt;@/0@#%*./;~~#-+,$,%*/&gt;&gt;&gt;#&gt;+&amp;~|%$ -     1    :   ; ::&lt;*   %  -                  |</text>
+<text class="px" xml:space="preserve" x="167.3" y="33.5" style="animation-delay:0.24s">,&amp;#$&amp;%%%$$$##$$$%%%%&amp;@%$&amp;%$%%&amp;*=-,</text>
+<text class="nz" xml:space="preserve" x="9.8" y="42.0" style="animation-delay:0.10s">$     *          ;  %&gt;    0~&amp;#,,&lt;:%-/*1=0,~=~.%.@@=1@~-.0&amp;&gt;@&gt;*@1$=~+; , =@       &lt;      #   |    @      ,  .#</text>
+<text class="nz" xml:space="preserve" x="9.8" y="42.0" style="animation-delay:0.18s">&amp;;          | ,  0     $  &gt;/*|%1=;1~|&lt;+/.#&lt;&amp;:+*&amp;.|,1~;,-@1%.|%%,&lt;10*; :         * *    :       :   ;   @          +  &amp;</text>
+<text class="px" xml:space="preserve" x="137.8" y="42.0" style="animation-delay:0.26s">,-=*@*@%$$$#####$$$##$$##$$%&amp;&amp;&amp;%#$&amp;&amp;&amp;&amp;$%@-.</text>
+<text class="nz" xml:space="preserve" x="24.6" y="50.5" style="animation-delay:0.12s">1-*  ~            @   %&lt;&gt;+~,:%@+&gt;,:%:&lt;-*$=--|@%10./0=#@&gt;-$-*+#;$:.1                    #       1</text>
+<text class="nz" xml:space="preserve" x="14.8" y="50.5" style="animation-delay:0.20s">%    |    &gt; &gt;           @:&amp;@&amp;&amp;~|./=-;=-&gt;.**-~&amp;&lt;%##$=$,&lt;.1&amp;|;.1-+:&lt;:++      ; + :              &amp; 1        #</text>
+<text class="px" xml:space="preserve" x="132.8" y="50.5" style="animation-delay:0.28s">+@*&amp;&amp;&amp;&amp;%$$$$##############$%%$$%$$%%%%%&amp;@%&amp;=.</text>
+<text class="nz" xml:space="preserve" x="4.9" y="58.9" style="animation-delay:0.14s">&amp;     0     @  #= ~      &gt;:&gt;1@&gt;||++@=*,/1&amp;0&amp;&gt;$#+-0&gt;=#&lt;,0@#-0&lt;+*.:=&gt;$.:    %           ~  %  $-  &lt;$       ~     +:     :</text>
+<text class="nz" xml:space="preserve" x="4.9" y="58.9" style="animation-delay:0.22s">|      ,      1   1 ,    .&gt;:1%.$*&amp;%$$&lt;++#&amp;1~+&lt;-,@&gt;0;@.+*#$&gt;,.*#.1&gt;#%-&amp;1      |  @               / $    #     +</text>
+<text class="px" xml:space="preserve" x="127.9" y="58.9" style="animation-delay:0.30s">=#&amp;&amp;&amp;%%%$#################$%$$$$#$$$$$%%%%&amp;=:</text>
+<text class="nz" xml:space="preserve" x="59.0" y="67.3" style="animation-delay:0.16s">;     |  +  /$&gt;$,@#-0-0/-0%.#-&amp;,&lt;~.|1*0:;*&gt;$1#,:@&lt;/@.-%&lt;:$#|       -   -    &lt; *#        $  &lt;/      % :&lt;</text>
+<text class="nz" xml:space="preserve" x="59.0" y="67.3" style="animation-delay:0.24s">&lt; =   .   = &lt;:&gt;~:*$-1~-.*&lt;&lt;.0-;/$0/-*-|-=@|/1~&amp;.$&lt;-1#@+/+;-   *      .|%  @ .    #     ~           @~  + ;</text>
+<text class="px" xml:space="preserve" x="123.0" y="67.3" style="animation-delay:0.32s">:$%&amp;@&amp;%%$$#################$$$#####$##$#$$$%&amp;~</text>
+<text class="nz" xml:space="preserve" x="49.2" y="75.8" style="animation-delay:0.18s">&amp;        :     /1+#+:*@;|#&gt;&amp;;&lt;,:.$*&amp;|$=&lt;%1-/&amp;&gt;.~.%,-=$*%@@&gt;|-$@            &gt;     0    &gt;         -          &gt;#</text>
+<text class="nz" xml:space="preserve" x="0.0" y="75.8" style="animation-delay:0.26s">/    #;      &lt; -   % .&gt;= *+%&gt;%;0|.//||~&amp;#&lt;&amp;1$$==0;1%&amp;|&lt;/#0-#@:*;-~*-:0*+-      %          =       &lt;         *        .#</text>
+<text class="px" xml:space="preserve" x="123.0" y="75.8" style="animation-delay:0.34s">=#%&amp;&amp;&amp;&amp;&amp;&amp;&amp;%$$#########################$%%%%%&amp;%=</text>
+<text class="nz" xml:space="preserve" x="0.0" y="84.2" style="animation-delay:0.20s">#      ~  *     +#   ~ &lt; /,&lt;+##*0#=&lt;&amp;&amp;~/$=.|,-|.,1@%.0,/:&gt;1=&amp;1&amp;:@00*;.|#,~=       %           &lt;           .     .    ~</text>
+<text class="nz" xml:space="preserve" x="19.7" y="84.2" style="animation-delay:0.28s">1                    %*+=&amp;$.=*10&lt;~.|:#&amp;$+=:=+&amp;|+|%1;;:0/+..*:-10&amp;.**|                     &gt;&lt;     1         ;</text>
+<text class="px" xml:space="preserve" x="123.0" y="84.2" style="animation-delay:0.36s">~###%$$$$$$$$#######$$#################%&amp;&amp;&amp;%%&amp;%-</text>
+<text class="nz" xml:space="preserve" x="24.6" y="92.7" style="animation-delay:0.22s">%       1  .    , ,%;./*:*|;1#/%*1/.:0:#:,|$@*./~$~=0*&lt;/;:@+1#+,@-;@,  = .        *             ;  :     /@</text>
+<text class="nz" xml:space="preserve" x="19.7" y="92.7" style="animation-delay:0.30s">/       .    |,    -;1#0=&gt;&amp;-@:+%-/&gt;&lt;0&gt;-::%=|*@&amp;0$#0@+0.1/0=~@|-~~@.~0,            &amp;  -      . #   ~-         %</text>
+<text class="px" xml:space="preserve" x="113.2" y="92.7" style="animation-delay:0.38s">.~%##$$$##############$################$###$%&amp;%%%+,</text>
+<text class="nz" xml:space="preserve" x="19.7" y="101.1" style="animation-delay:0.24s">= &amp;$              &gt;*=0==:11|,=&lt;@-&gt;,-,#:&lt;&gt;*/@#$*&gt;~&gt;;&lt;&gt;=1=&lt;-#&gt;$0%:$,&gt;; &gt;  ,         @   &gt;      -%          0 /       /</text>
+<text class="nz" xml:space="preserve" x="14.8" y="101.1" style="animation-delay:0.32s">&amp;    :  ;   0      |&amp;@&lt;0./*,@.1#&gt;1%@:,*;|:&amp;-1-#%+&amp;|10*:%#1%~|1/$*=&amp;@,@# &amp;     0 |~       - 1    &amp;     ;           : 1</text>
+<text class="px" xml:space="preserve" x="108.2" y="101.1" style="animation-delay:0.40s">..~##$###$$##############################$$#$$%%#&amp; .</text>
+<text class="nz" xml:space="preserve" x="39.4" y="109.6" style="animation-delay:0.26s">&amp;       0     0#;*.&amp;,.;+~&gt;:*~,&gt;|%@%||&amp;1;;&amp;&gt;@/-1-$1%,++&gt;,-$10.*$0  -|         &gt;     .   +%  =|         :     *</text>
+<text class="nz" xml:space="preserve" x="14.8" y="109.6" style="animation-delay:0.34s">&amp; %# ~  1 #1       &amp;..==;@#;&amp;,|&amp;~1;1&lt;*%&gt;&lt;&gt;=*&amp;&gt;&lt;~&amp;|+*~;*,#$&lt;$*&amp;*;..-@-*  &lt;                      &amp;   %      #       /</text>
+<text class="px" xml:space="preserve" x="108.2" y="109.6" style="animation-delay:0.42s">..+$%##$######################$$$$$#$#$$%$$#$$$$#*</text>
+<text class="nz" xml:space="preserve" x="4.9" y="118.0" style="animation-delay:0.28s">#|        |   #$ |~   ,1.%~$&amp;&lt;&lt;;&lt;|/,#%1&amp;=$,%,&amp;//+|~$~;0.&gt;:#@#-+/&amp;;~&lt;@;,1 %                   0 -=            1        *</text>
+<text class="nz" xml:space="preserve" x="9.8" y="118.0" style="animation-delay:0.36s">/             =.     =|~&lt;$&amp;~@*$,=,#/~@#;&lt;11===;:#|;#;*:|~,*.#1=;+&gt;=:/&gt; 1    = *.  0  $   :             |    0 /   =</text>
+<text class="px" xml:space="preserve" x="113.2" y="118.0" style="animation-delay:0.44s">:+$%$$$################%#$$$&amp;&amp;@+@&amp;$$%%&amp;@&amp;&amp;%$#$#@.</text>
+<text class="nz" xml:space="preserve" x="49.2" y="126.5" style="animation-delay:0.30s">,  : ,&gt; ~   = &lt;**@,.|-==0%#@1*$*$#+&gt;$,+/.%-&lt;+&lt;|~%%+@&amp;*$1;~/#11  /       :       0   ;  0  =   1  ,      | | ~</text>
+<text class="nz" xml:space="preserve" x="39.4" y="126.5" style="animation-delay:0.38s">~ /   =  &lt;      *~0&lt;=;=~.&lt;|+&gt;-#;-=|%=:1-%*$&gt;|&amp;/$|,|,%:~&lt;+1,:#0+&amp;          /        .     , &amp;             #   &amp;</text>
+<text class="px" xml:space="preserve" x="118.1" y="126.5" style="animation-delay:0.46s">:@$#$###############$%&amp;$%%&amp;=*@+==@@&amp;%&amp;*+***$##-</text>
+<text class="nz" xml:space="preserve" x="19.7" y="134.9" style="animation-delay:0.32s">00/      0    ~    .$@&gt;.1-@#&amp;=10-#-1@;*|*$-&gt;=1%,$+,$*/:+0&gt;&gt;:&gt;*,%.*@=      ,   ,  %      =|         .          +</text>
+<text class="nz" xml:space="preserve" x="14.8" y="134.9" style="animation-delay:0.40s">/ /      :  $  , &lt;;$ |#,&gt;&amp;+|//&gt;10@-;$%/#+&amp;1@&gt;-;&lt;@.@@0;0#:%0-/~*&amp;|@&lt;+        &gt;    1  @ ,                  -%         ,</text>
+<text class="px" xml:space="preserve" x="118.1" y="134.9" style="animation-delay:0.48s">.:+$##########$####$%%$$%%&amp;=+$$&amp;@&amp;%%$@==++~@##-</text>
+<text class="nz" xml:space="preserve" x="4.9" y="143.4" style="animation-delay:0.34s">=:  |*  #&amp;     &lt;        @==-;.&gt;&amp;-%&lt;.&lt;~|&amp;:,#$0~/|*;.|&gt;-&gt;+#&gt;1;..&amp;:&lt;|-=&amp;0 &amp;&lt;       ,        /       *  *        |</text>
+<text class="nz" xml:space="preserve" x="49.2" y="143.4" style="animation-delay:0.42s">$1     ,&amp;      */$1|*.--.$;;.*@&amp;..+*/1#|*1&amp;~&lt;:$*0/+1~*.,@&lt;&amp;+#   1     &gt;        %*           ~      .     ~</text>
+<text class="px" xml:space="preserve" x="123.0" y="143.4" style="animation-delay:0.50s">,=%#####$$$%%%$###$$$$%%$%@*%#$$$$$$%@**@==#$,</text>
+<text class="nz" xml:space="preserve" x="9.8" y="151.8" style="animation-delay:0.36s">.    -$   &gt;  . ,*&lt;      &amp;*#@=&lt;|.,;//.;,&gt;-@#&gt;&lt;*/$#=*|%&gt;;|-;*&amp;=0%~,~&lt;,/               +   #  %=                     / =</text>
+<text class="nz" xml:space="preserve" x="0.0" y="151.8" style="animation-delay:0.44s">- ~           +      -    *@;:&amp;#$%=:-:*~=-*&amp;&amp;:#=-+&amp;;@$.+:,;&amp;/,#0-/~:|-.;1 ~             ~                    ;    1  ;</text>
+<text class="px" xml:space="preserve" x="127.9" y="151.8" style="animation-delay:0.52s">:~#####&amp;@&amp;&amp;&amp;%%%%%%%%%%$$*-:+##$$$$$$$%%%@~%*</text>
+<text class="nz" xml:space="preserve" x="24.6" y="160.3" style="animation-delay:0.38s">+  ,  =               $/;|;$~,@..;*&lt;1*|&amp;.|~&lt;&lt;:::,0,&amp;+&gt;%#&lt;|,#1|.=&lt;&amp;         &lt;@+    @          #  =|       *</text>
+<text class="nz" xml:space="preserve" x="29.5" y="160.3" style="animation-delay:0.46s">,    /              | &gt;&lt;*&amp;,@+-=&gt;#~1%#+,0=.@0-,;1@0|||&gt;&gt;#.&gt;,&lt;#=%*                  - &amp;                    =~|#  &lt;</text>
+<text class="px" xml:space="preserve" x="137.8" y="160.3" style="animation-delay:0.54s">*###$*@&amp;&amp;&amp;%%%$$######&amp;~,.,+%#######%@*=-*-</text>
+<text class="nz" xml:space="preserve" x="0.0" y="168.7" style="animation-delay:0.40s">#   %      #;     -. ; /   &lt;-#~%:&lt;&gt;/@./=:1.|,%&amp;:=1$;*;#,&amp;|&amp;.&amp;&gt;+%/*0|@*  =          1   +&lt; :     |            ;  .</text>
+<text class="nz" xml:space="preserve" x="64.0" y="168.7" style="animation-delay:0.48s">@:         &lt;   +.#@1*:/*|.&amp;*/##1=%|0.=&lt;==%&amp;&lt;$=+&lt;+=$&amp;=+/|~ :  &lt;+   &gt;     #     *  @~ #&amp;  ##   |     %    -</text>
+<text class="px" xml:space="preserve" x="137.8" y="168.7" style="animation-delay:0.56s">.%##$*@%%$#########$+=+-,:--=&amp;&amp;&amp;&amp;*=~-:~~~,</text>
+<text class="nz" xml:space="preserve" x="4.9" y="177.2" style="animation-delay:0.42s">* $  &lt;=         0          ,@+$=0~0@-/:1@*+&amp;%0%1@0~/&lt;:&amp;#010~&amp;;~0~-|%0   ~,  %       &gt;+      @          0  -       +</text>
+<text class="nz" xml:space="preserve" x="142.7" y="177.2" style="animation-delay:0.50s">%=@%0#=+~/,#$;:,~#.@%;1=.//@~:#;1.$%-$*#1     1~     *   =   ~     :  &gt;      |       :    ~</text>
+<text class="px" xml:space="preserve" x="142.7" y="177.2" style="animation-delay:0.58s">,*#$*@%&amp;&amp;%%$$$%%$@~-+=::,,::--:-::::::~=,</text>
+<text class="nz" xml:space="preserve" x="0.0" y="185.6" style="animation-delay:0.44s">|    @ &amp;          -&lt;          *~#.$&lt;.|@:@&lt;10&lt;1$,$1-.#@&gt;#0$0*%&gt;@0*0%,:&lt;             ,          # ~   1 =    &gt;       0</text>
+<text class="nz" xml:space="preserve" x="49.2" y="185.6" style="animation-delay:0.52s">;         11   .  &amp;0&amp;0-0.:$:|$**/-;;#$.|;,+&gt;,~:&lt;.1:@,%0+@:|.          /     /       -  .  ~&lt;     @         ,</text>
+<text class="px" xml:space="preserve" x="147.6" y="185.6" style="animation-delay:0.60s">=#%@@&amp;@@&amp;&amp;%@==+~-=++-::,,:-~~------~~~+:</text>
+<text class="nz" xml:space="preserve" x="24.6" y="194.1" style="animation-delay:0.46s">,  /  &gt;     &gt; |    ,     ~//;-&amp;.-&gt;+;;&lt;&gt;:=+.,:#$$&gt;&lt;+;$&amp;&gt;=+%+,/-1&gt;&amp;       &lt; |  &gt;  .      #1       +  ,, =/&gt;</text>
+<text class="nz" xml:space="preserve" x="0.0" y="194.1" style="animation-delay:0.54s">&lt;  .-       =  /   ;       +  .=:#&lt;:@1.+%;%&lt;$-,0**&gt;1+.=&lt;:;&gt;$;@+~@,*~;+      /| .  $-    *                   #|</text>
+<text class="px" xml:space="preserve" x="147.6" y="194.1" style="animation-delay:0.62s">:#&amp;@@@@&amp;&amp;&amp;*=-~--~*+=****@@&amp;+~=~---===+*+</text>
+<text class="nz" xml:space="preserve" x="14.8" y="202.5" style="animation-delay:0.48s">#;;                 -      &gt;==1=.&gt;1*1&amp;*+-&lt;&lt;$+&lt;&gt;~*#+&gt;/#/*#.|&lt;;$:&gt;/&lt;||  0 &amp;    ~$                $&gt;    *              |</text>
+<text class="nz" xml:space="preserve" x="0.0" y="202.5" style="animation-delay:0.56s">$  %  &amp;   |                1  1-~*%|--0%&lt;$+,:~&lt;+;+@;+,=&gt;&lt;-;*:&amp;.#|=.;1%;      &lt;   0          $  %0      &gt;   ,   :</text>
+<text class="px" xml:space="preserve" x="147.6" y="202.5" style="animation-delay:0.64s">.&amp;$%*@@&amp;&amp;*==~~~~=++@%%&amp;@@%#$@-~=~=++*@@=,</text>
+<text class="nz" xml:space="preserve" x="4.9" y="211.0" style="animation-delay:0.50s">:-   +   = + @          &amp;     =&lt;&lt;~&lt;&gt;$./:,|~&lt;&gt;&lt;&gt;-&amp;@&lt;&gt;:$/##~~=~:#1:+-|;~%&gt;    *        , &amp;1   |     %&amp;     %  .</text>
+<text class="nz" xml:space="preserve" x="24.6" y="211.0" style="animation-delay:0.58s">-  =+  +        .;        |+;$,|%0&amp;1%==/~+:&gt;|/%%:++&amp;$-#:;&gt;@0--$@0&amp;&lt; /  #; #      0      ~        ,|  -    +    : &amp;</text>
+<text class="px" xml:space="preserve" x="152.5" y="211.0" style="animation-delay:0.66s">+#%@*@&amp;@@*+====~~&amp;$##$%$$##@,:-~~=+@&amp;@*,</text>
+<text class="nz" xml:space="preserve" x="0.0" y="219.4" style="animation-delay:0.52s">+      ;.  &lt;    &lt;     *&gt;    %; /@@$+@#~&gt;&amp;;*&gt;1&lt;/#;~*~$,=+~%=;&amp;,~,.-;*1*      / =             $               0   $1</text>
+<text class="nz" xml:space="preserve" x="0.0" y="219.4" style="animation-delay:0.60s">+       ,#      $&lt;     @       ,/&amp;@;1&amp;|*#.+*&lt;&lt;/.-*|+1@-~;*&amp;~0:+&gt;=,:&gt;:&amp;&amp;  &amp;       .0     +   *  +  #  0     &gt;  =.</text>
+<text class="px" xml:space="preserve" x="152.5" y="219.4" style="animation-delay:0.68s">:%$%*@@@@@*+==~::&amp;##$###%=:,,,,:-~+@&amp;&amp;~</text>
+<text class="nz" xml:space="preserve" x="54.1" y="227.9" style="animation-delay:0.54s">#      :$        :   $#&amp;-&amp;&gt;#,$.%|-&amp;&gt;;&amp;:#-.~*$|&lt;.0-.:~*&lt;&lt;|1@                  #|#  &lt;  , *     =    #1</text>
+<text class="nz" xml:space="preserve" x="0.0" y="227.9" style="animation-delay:0.62s">0    -      ,              : .  ~%&lt;::&gt;#~/+@::0-;;=@;;##.&lt;=&gt;&gt;1/:;,0,|&amp;1           +&gt;          0          $ +.  :   /    =</text>
+<text class="px" xml:space="preserve" x="157.4" y="227.9" style="animation-delay:0.70s">-&amp;%%@@@@@@*+=~---=+*@*+=~++~-~~~=+*&amp;&amp;:</text>
+<text class="nz" xml:space="preserve" x="49.2" y="236.3" style="animation-delay:0.56s">:     ~ %  &lt;  /   ~&lt;   &lt;.&lt;*,++&lt;$$@~01@&lt;*:0&gt;+#+=@$0@&gt;&gt;1+/,~*@   .  * 0/           &lt; 1                   *</text>
+<text class="nz" xml:space="preserve" x="64.0" y="236.3" style="animation-delay:0.64s">+       &amp;    :    ; &amp;*|%*/|/&lt;=;;0|&gt;.&gt;&amp;+|;|&gt;##1/1&lt;/.|~+/+$           %  #  *                &lt;   .&amp;</text>
+<text class="px" xml:space="preserve" x="162.4" y="236.3" style="animation-delay:0.72s">.:~&amp;&amp;&amp;@@@@*+++*++@%%&amp;%%%*+*&amp;&amp;%@*=+@%,</text>
+<text class="nz" xml:space="preserve" x="24.6" y="244.8" style="animation-delay:0.58s">$      , +                   , &lt;&amp;;/1@,-&gt;01@/&gt;,-=1:|%@-+%@*-;0~=,$        -  /   &gt; .   +  ;                       :</text>
+<text class="nz" xml:space="preserve" x="4.9" y="244.8" style="animation-delay:0.66s">&gt;       0    /&gt;                    @=$+|&amp;0//10@/,.#1|&amp;|+0*#:0@;;#&gt;&gt;~        %                  ,.  -     &gt;  ; ~</text>
+<text class="px" xml:space="preserve" x="177.1" y="244.8" style="animation-delay:0.74s">=%@&amp;@@@@&amp;&amp;%$$$&amp;*+~~~--=++++@@*=&amp;@</text>
+<text class="nz" xml:space="preserve" x="24.6" y="253.2" style="animation-delay:0.60s">-*      /       &lt;&amp;     &gt;.      =++$-/;|@-:-0=&amp;:.%;0/=#0%|&lt;~=;,&amp;1                         &gt; +&lt;/    &gt;   +*  #&gt;   - %</text>
+<text class="nz" xml:space="preserve" x="29.5" y="253.2" style="animation-delay:0.68s">/       :                 ,   |$@=~=-&gt;%-%1&lt;,*/*0+1%:0&gt;;~%~+&amp;&gt;@&amp;  #   = =   %   0         + -              :</text>
+<text class="px" xml:space="preserve" x="177.1" y="253.2" style="animation-delay:0.76s">,&amp;&amp;@@@*@&amp;%&amp;@@@*@&amp;&amp;&amp;&amp;%$$%$&amp;@&amp;&amp;*@@,</text>
+<text class="nz" xml:space="preserve" x="14.8" y="261.7" style="animation-delay:0.62s">@      @           = =~ ~        .:&gt;-#0|=-&lt;+&amp;=&lt;0$/0,.@%@,=~%~#-$: +      .   ;   &lt; ~            &gt;:           1</text>
+<text class="nz" xml:space="preserve" x="9.8" y="261.7" style="animation-delay:0.70s">, -      @ ;-&amp;@=    ;  @ #         ,|+;*&lt;;1~:;&gt;|$#%+~#*1://&gt;+,;&gt;*~    |&gt;      &amp;;          %  &lt;           0      . . /</text>
+<text class="px" xml:space="preserve" x="182.0" y="261.7" style="animation-delay:0.78s">*&amp;@@@@@@&amp;@@&amp;&amp;%$$####$$$%&amp;&amp;**&amp;*,</text>
+<text class="nz" xml:space="preserve" x="9.8" y="270.1" style="animation-delay:0.64s">&amp;   0          #    /- | 1         +/+&amp;$&gt;~;&gt;+/@$/#-%0&amp;&amp;.=%%.0@$$~:    ;              &lt;   ;    $           /      |</text>
+<text class="nz" xml:space="preserve" x="4.9" y="270.1" style="animation-delay:0.72s">.    :           %           .      ..$0.0;|&lt;.+*&lt;@-/~@*,%$.&amp;*-+=$. $      &gt; - %    ;      /      @,  ,        : #  .  ,</text>
+<text class="px" xml:space="preserve" x="182.0" y="270.1" style="animation-delay:0.80s">+%**@@@@@&amp;&amp;&amp;&amp;%$$$$$$%@+~==+&amp;*.</text>
+<text class="nz" xml:space="preserve" x="0.0" y="278.6" style="animation-delay:0.66s">,     |    @             ;         | %/$;&gt;-&lt;-$;&lt;#$&lt;#.|1|.0~$,,;#$-  + /     |~   -    =    =   &lt;      | ~*</text>
+<text class="nz" xml:space="preserve" x="24.6" y="278.6" style="animation-delay:0.74s">:   1:  @                       -#-*@+*/&lt;;&gt;.1-|&lt;:|1-&gt;@:@$&gt;$|=      &amp; &gt;.   .&amp;&lt;;       $         @    ;      ~  =</text>
+<text class="px" xml:space="preserve" x="182.0" y="278.6" style="animation-delay:0.82s">-$&amp;@*****@&amp;@***@@@@@@*++***&amp;=</text>
+<text class="nz" xml:space="preserve" x="59.0" y="287.0" style="animation-delay:0.68s">/           |   &lt;    1 = ;=&gt;:&amp;$*.%&amp;~:-*#1+-+@~=/|$&lt;$0#  #   $     + | @  0=* &lt; %              *  @      @.</text>
+<text class="nz" xml:space="preserve" x="34.4" y="287.0" style="animation-delay:0.76s">0 -         ; @               @%0:;0#$/@|&lt;/,/+@:-/1/&amp;1,*-@|  ~   @      +          &amp; # 0 &gt;      =   &gt;         /</text>
+<text class="px" xml:space="preserve" x="182.0" y="287.0" style="animation-delay:0.84s">,%&amp;&amp;&amp;@@********@@@@&amp;&amp;&amp;&amp;@@**%+</text>
+<text class="nz" xml:space="preserve" x="0.0" y="295.5" style="animation-delay:0.70s">=  %   ,               -    ,        =~/&amp;+&lt;|;0/0#:/*;+;$$@1&gt;.*0:@. &amp; 0| 0/   ,              =    0        ~</text>
+<text class="nz" xml:space="preserve" x="19.7" y="295.5" style="animation-delay:0.78s">#1 &amp;  |   $# 1      -;   -    -- 1-&gt;@1*$%.;@+1/=.-*:-~.,&amp;&lt;.*&amp;.            ~ &lt;     /              =    0,, &lt;   .</text>
+<text class="px" xml:space="preserve" x="182.0" y="295.5" style="animation-delay:0.86s">.&amp;%&amp;&amp;&amp;&amp;&amp;&amp;@@*************@@@%=</text>
+<text class="nz" xml:space="preserve" x="9.8" y="303.9" style="animation-delay:0.72s">*            =   +,~   =  :  +     +&amp;@1|-=~,;,~#./&gt;$;,@0+1:%;,|&gt; ;   &gt;   ~= .         0  &lt;     &lt; |    &amp;</text>
+<text class="nz" xml:space="preserve" x="24.6" y="303.9" style="animation-delay:0.80s">:    &lt;    =%       *,  1&amp;  $   .@/:+%+#@=$|&amp;=~:+//=//%-$#1&lt;,:       &lt;  .   =.         $     =  ;   $ # ,       #  .</text>
+<text class="px" xml:space="preserve" x="182.0" y="303.9" style="animation-delay:0.88s">:$&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;%%%&amp;&amp;&amp;@@@@&amp;&amp;%%&amp;@*%=</text>
+<text class="nz" xml:space="preserve" x="4.9" y="312.4" style="animation-delay:0.74s">+0          ~ &gt;    |       @      &lt;$0;&gt;1|:**,@0;$@&amp;:=.$1#:~/&amp;&lt;-,&gt;. -          # /  # %   @    &lt; &lt;    &gt;                *</text>
+<text class="nz" xml:space="preserve" x="0.0" y="312.4" style="animation-delay:0.82s">&lt;      =  ;     =              =    ~*,&gt;0=&lt;0#%0-*:;0|*-~~11:@0%0#1,    &amp;               ,           ~   ;-      $ 1</text>
+<text class="px" xml:space="preserve" x="177.1" y="312.4" style="animation-delay:0.90s">.&amp;$&amp;&amp;&amp;&amp;&amp;&amp;&amp;%%%%%%%%&amp;%%%%%&amp;&amp;@*&amp;+.</text>
+<text class="nz" xml:space="preserve" x="19.7" y="320.8" style="animation-delay:0.76s">0  @        &lt;           &amp; 1 /#,-&gt;$0;&lt;-#&lt;=/-%~,&lt;$=-|&gt;&lt;&amp;&lt;~=~.#-0/0$ :  ,    - &amp;             1            ,       @- 0</text>
+<text class="nz" xml:space="preserve" x="19.7" y="320.8" style="animation-delay:0.84s">@/  &lt;    +        :        |$&gt;$&amp;1~-1.$$&lt;&gt;&lt;=#=~/0-,&lt;|$@/1+,/%=~#=, @   $  * *  *:                 #         *</text>
+<text class="px" xml:space="preserve" x="157.4" y="320.8" style="animation-delay:0.92s">,---+&amp;&amp;%%$%%%%%%%%$%%%%&amp;&amp;&amp;&amp;&amp;&amp;&amp;*@@@&amp;+, ,</text>
+<text class="nz" xml:space="preserve" x="49.2" y="329.3" style="animation-delay:0.78s">&gt;   *1&lt;   @ &gt;        %&gt;.|0~*+-*~@+1,&amp;1&lt;0&lt;:%/0%+|&amp;*,&amp;,%1|0=;;%%    ; :    -&amp;   @    &amp;&lt;  ;   / &lt;        %    ,</text>
+<text class="nz" xml:space="preserve" x="98.4" y="329.3" style="animation-delay:0.86s">+ =       *@.$=@1%/,:;.&amp;:++&gt;@~0/~0|;-,0#&lt;@+#$&lt;;1&lt;,/$=        $;  &amp;   *:%  ,                 ; $</text>
+<text class="px" xml:space="preserve" x="152.5" y="329.3" style="animation-delay:0.94s">,~~=++===+*&amp;%$###$$$$$%%%%%&amp;&amp;&amp;@*@*&amp;%%@~@~</text>
+<text class="nz" xml:space="preserve" x="14.8" y="337.7" style="animation-delay:0.80s">1.            &gt;|  ,+ -    #;/,01=+;1|=&gt;1##&amp;1$;$@:/1$%##,%&amp;1&amp;,+=0:&gt;-+$#  * &amp;   :            +      1    #      =</text>
+<text class="nz" xml:space="preserve" x="73.8" y="337.7" style="animation-delay:0.88s">%-      0   #  *@::;0+&amp;.,*1@.,&gt;;0;%1#1&lt;|/0$=&amp;*;&amp;1/|=.,@/|&lt;                   :   ;  1.,%#      =</text>
+<text class="px" xml:space="preserve" x="147.6" y="337.7" style="animation-delay:0.96s">.:~~==~=+=====+*@&amp;%$#####$%%%&amp;&amp;@@@*%#&amp;@*+=~</text>
+<text class="nz" xml:space="preserve" x="34.4" y="346.2" style="animation-delay:0.82s">#~* .             /    :||=/~&amp;;#/&gt;0.*+&lt;0|&gt;%.;-:|.$=%%0;$/*.0*@/&gt;%$= ,    $             #%      1        &amp;0   %</text>
+<text class="nz" xml:space="preserve" x="49.2" y="346.2" style="animation-delay:0.90s">;      ,   0        $1#%@1&amp;$&gt;;%|&gt;,/1%0$|:=*&gt;:~|,#*|;.;|%@#-=-*=1          *     $  % &gt;      |$          #0</text>
+<text class="px" xml:space="preserve" x="147.6" y="346.2" style="animation-delay:0.98s">,:----:-==========+@@@@@@&amp;$%&amp;&amp;&amp;@@@**#$@*@*+.</text>
+<text class="nz" xml:space="preserve" x="0.0" y="354.6" style="animation-delay:0.84s">.    -        ;            &lt;:$/&amp;;|/,/;&lt;11#&lt;/:,&amp;%&amp;.::.+%%%@$:#|/;-;|*@/@$&amp;1 ~&gt;   0@ |    &gt; .    :&lt;             $&lt;   +</text>
+<text class="nz" xml:space="preserve" x="14.8" y="354.6" style="animation-delay:0.92s">/       *              +#:0|~&lt;$,*@+@&gt;,0:=;-%$;|@.1&lt;/|;&gt;0==;;#&lt;,:%/.0&amp;:| ,      %   %   |         - 0 ;# &lt;   ~ - % %</text>
+<text class="px" xml:space="preserve" x="132.8" y="354.6" style="animation-delay:1.00s">..,,.,::--~~-=======~@%@*++==@$%&amp;&amp;&amp;&amp;&amp;*+*%&amp;+-~:. .</text>
+<text class="nz" xml:space="preserve" x="24.6" y="363.1" style="animation-delay:0.86s">/          ~:  %  ~ $|/:-%&amp;&gt;0&lt;.,&gt;-|:==-~&amp;-~#=0:@|0$&amp;;&lt;**$&gt;.%&amp;%11&lt;|+0  -&gt;;|:#         : *, ~      0             &lt;$+$</text>
+<text class="nz" xml:space="preserve" x="34.4" y="363.1" style="animation-delay:0.94s">&amp;          &lt;      #1-&amp;~=-:,;*&amp;||&amp;&gt;*1&lt;/*&amp;:%$0+,/%1@01,$0&amp;,.~|@+=:;/  &gt;%/=;1    #  /+;                   %        .</text>
+<text class="px" xml:space="preserve" x="123.0" y="363.1" style="animation-delay:1.02s">::...,,,,,,,----==~=~=~=%%@@@@@+*%%&amp;&amp;&amp;&amp;*++==..=:  ......</text>
+<text class="nz" xml:space="preserve" x="39.4" y="371.5" style="animation-delay:0.88s">#          . &lt; @0-1;;,/&gt;&gt;0;0&gt;0-@,%,/&lt;&amp;/=:-|@~&amp;$&lt;&gt;+/*&lt;%1/&gt;&gt;#&gt;|$;#0*&amp; ;&amp;%1+#11|&amp; #       %  /*    . &lt;            -</text>
+<text class="nz" xml:space="preserve" x="49.2" y="371.5" style="animation-delay:0.96s">$     &gt; *  ~ &gt;=1;~~~+%|$1&lt;+@=:.$&amp;;:&amp;&lt;&amp;,=&gt;=%;|:=:+:/:0@:~1-|/@1%=; ~-/*/&lt;:.:&lt;/    @/      $   :        : 1    |</text>
+<text class="px" xml:space="preserve" x="113.2" y="371.5" style="animation-delay:1.04s">..,-:,...,::::,..,:+*++++=+%&amp;&amp;@@@@**&amp;%%%&amp;@+*~-=**=-. ..........</text>
+<text class="nz" xml:space="preserve" x="0.0" y="380.0" style="animation-delay:0.90s">+     /|  ;         +#$~: +~%&amp;*.@=$1::+$;1;%0#+|$0,*--&gt;/1&gt;$0,/|,~@*,0=~+#|%&lt;#/1-%+-|=;$ +  ;0      &gt;          &gt; ,</text>
+<text class="nz" xml:space="preserve" x="98.4" y="380.0" style="animation-delay:0.98s">.,%%@+1&amp;*,@&lt;=1*%;;1+&gt;$&amp;|,=;#@:~@**&gt;&gt;:*::-+;@|+&gt;=|#*=*&lt;11-#$&gt;1&gt;%+.$,           =     /   + =        &amp;</text>
+<text class="px" xml:space="preserve" x="98.4" y="380.0" style="animation-delay:1.06s">..... .,:,,...,::~~:,..=*****+@@*@@@@**+&amp;%%&amp;@+--~,,,.,:............</text>
+<text class="nz" xml:space="preserve" x="0.0" y="388.4" style="animation-delay:0.92s">&lt; ~    *   :   / &lt;&amp;0//-|=;&amp;;&gt;/&amp;|&gt;~&lt;%&gt;~$&amp;@1~/:*$-&amp;~.#|&lt;==&amp;$@#.;*1$$&gt;1/$  |/-1/.:|:=&lt;#,@&gt;,=   #      &amp;            :     #</text>
+<text class="nz" xml:space="preserve" x="9.8" y="388.4" style="animation-delay:1.00s">%       ~      -%-$&lt;0%11:;,~==#/-:=*.%&amp;%/;,-+|1-0&gt;@=||/*&lt;+;%~@&amp;&gt;+@*=  -~*%=&amp;:&gt;.-~:~@&amp;#=   % / ~           &gt;</text>
+<text class="px" xml:space="preserve" x="83.6" y="388.4" style="animation-delay:1.08s">..,,,................,,:-:,:=+=++@%***+**+*=*%%*-,,=-  ..............,,</text>
+<text class="nz" xml:space="preserve" x="14.8" y="396.9" style="animation-delay:0.94s">0           &lt;#@=1~%1|.&lt;@*/**,;:%*=-*.=11%/&lt;@,+&lt;-&gt;&lt;*+-$#*-0@+$|+*://= &amp;~&gt;-&gt;&gt;=|1=$%&lt;,/-;   .            +      %</text>
+<text class="nz" xml:space="preserve" x="24.6" y="396.9" style="animation-delay:1.02s">; -$     $=:0:|%.|%|~%~0-~:,$%,&amp;&gt;*1..-=-%:&lt;*$$$%-~%$&amp;/*#&gt;~+@&gt;~/*&lt;/ &amp;~:&gt;-,|:-&lt;@.&amp;|:;@ &gt;  +    :          %     $</text>
+<text class="px" xml:space="preserve" x="73.8" y="396.9" style="animation-delay:1.10s">..,.........................,..:-~+@*@*+==++==~~@~--::*: :.............,::</text>
+<text class="nz" xml:space="preserve" x="4.9" y="405.3" style="animation-delay:0.96s">%      ;%1+|@%$~0&lt;.|~@$@$=-*;*$~=+.%|&lt;0.1&lt;=+,~1|;||/&amp;&amp;$%&amp;;/|0-=#&gt;=$@:&lt;|01&amp;.|:&amp;;1-#-*|~$&gt;1     ~       |     1/     /</text>
+<text class="nz" xml:space="preserve" x="4.9" y="405.3" style="animation-delay:1.04s">1*,    =,&amp;=&amp;%$+|:/#&gt;--#=-#:#|=01/@@=@;&lt;1&lt;,&amp;~:+:&lt;|$0&lt;1&amp;,1@/0&gt;#~,$~=1#1.$=1.&amp;$=.+%&gt;~,1$&amp;;~- +         #0</text>
+<text class="px" xml:space="preserve" x="39.4" y="405.3" style="animation-delay:1.12s">.......,,..............,,.,..,,,.........-++***+====~:..,--::-*:,..,.,........,,:,</text>
+<text class="nz" xml:space="preserve" x="0.0" y="413.8" style="animation-delay:0.98s">%   % #%$;&gt;&gt;$&lt;,,&lt;:-1#@0,$;~=:&lt;1&lt;|:&amp;-+-&amp;=|+,;*;*|;;+|1+-/|1+~|,1| -*@&lt;=1; ;$*|0;&gt;/+&amp;~$&lt;&gt;.$--  &gt; +;:              &amp;</text>
+<text class="nz" xml:space="preserve" x="29.5" y="413.8" style="animation-delay:1.06s">/,#*|*@11+=&lt;||$|-$&gt;|%@:@*@@&amp;1/%#%,;/=&gt;|&amp;@+&amp;~=~=;-1~|-|#$.1 @#,0@11 =@%&amp;&amp;,--.$;%1,;&gt;=$      @   /            .  ,</text>
+<text class="px" xml:space="preserve" x="29.5" y="413.8" style="animation-delay:1.14s">.,,,,,.................,,,,..,.,....,,...,,..,:~~~==-:..,. .---:=: ,,,..,........,::,</text>
+<text class="nz" xml:space="preserve" x="0.0" y="422.2" style="animation-delay:1.00s">=  : ;**-+/~=**&amp;#@*&gt;,&lt;/;*$:|1;-+#10#@%#/.$#%~0~&amp;@|,&lt;&gt;=/:-/%- :#&amp;+@$&lt;+$./ $#0@&lt;/=$----:&lt;%&amp;,|; - ;  -/  | $      +</text>
+<text class="nz" xml:space="preserve" x="9.8" y="422.2" style="animation-delay:1.08s">#  1&amp;|&gt;/0%/.;:&gt;:-**@$&lt;-*/=;~.$$0~/%,%#11$..*|*@+%#/@//,,;: :/&gt;%&amp;=/0/%/ :,%&gt;;#-~&gt;~;1&lt;.1&amp;.0- :         &lt;   #</text>
+<text class="px" xml:space="preserve" x="24.6" y="422.2" style="animation-delay:1.16s">.:,.....................,,,,,.,,.:.,,.,,,..,::,....,,:. .,,,..,-:~~ ::,..,,........,:-.</text>
+<text class="nz" xml:space="preserve" x="4.9" y="430.7" style="animation-delay:1.02s">:  .-&gt;0~--.;,%:$&gt;|@&amp;&lt;&amp;~@;&gt;-1-$|0-%||1;#&amp;-/.@-,/#;-|-~=~~@;#~.@/|$&amp;;&amp;#@/,*,*0,&gt;1$&lt;~~*&lt;1%/+;#     =1             0 ~</text>
+<text class="nz" xml:space="preserve" x="0.0" y="430.7" style="animation-delay:1.10s">&lt;   &amp;+@&gt;0&amp;./;0&amp;1%:|:&amp;-*&gt;,*=/:0=%|0&gt;:,=&gt;&gt;&gt;.,*/00$+~$:&gt;$|%#::+#%@$@,&gt;&amp;.:&lt;$~*@,$-$@~=&amp;;:$*%,,:/ :#      .   :        |    $</text>
+<text class="px" xml:space="preserve" x="19.7" y="430.7" style="animation-delay:1.18s">,,,..................,...,,:,,,.,.,,.,.,,,:,.,,::,,.,,:-:..,-,,..:-+,,:,.,.,........,,-:</text>
+<text class="nz" xml:space="preserve" x="0.0" y="439.1" style="animation-delay:1.04s">;@-0@&amp;,~.#:~=-@##$#~;~,%&gt;@&gt;0#/+*+/&amp;*,&amp;*~+&gt;:,~==0.$&lt;::-0/|%+@#~+&amp;&gt;0;.&gt;:0&amp;%&amp;0-&gt;~@#1&gt;/&lt;,$&gt;~&gt;::.- *       &gt; #     -  -</text>
+<text class="nz" xml:space="preserve" x="0.0" y="439.1" style="animation-delay:1.12s">%11+@&amp;&gt;%+,-0/:*$,~-&gt;,-&amp;|/.$|%10~*$|0&amp;%1;+;&amp;/1::#-$;1|||*$&amp;~0@/&lt;+&lt;1@&amp;:*./*$&lt;:-0|0-11,=/%-0+/.:           &amp;</text>
+<text class="px" xml:space="preserve" x="0.0" y="439.1" style="animation-delay:1.20s">..,:,...,,.,...........,,.,..,,,:,...:,,,.,.,,,,,,.,,,:,..,,-~....,,..,~~..,.,..,........,:-.</text>
+<text class="nz" xml:space="preserve" x="0.0" y="447.6" style="animation-delay:1.06s">$%,/#$=#&amp;.:,|&lt;*|0,,@;##1$;~=&amp;$|~:&gt;;&lt;&gt;/;$+;111+*#%&amp;/.-&amp;@~&lt;*/|&lt;$=-&amp;:$#/|**@$0&gt;0&amp;#=&gt;#%@*0|%#&lt;@.$-     ;    =  *        |&lt;&lt;</text>
+<text class="nz" xml:space="preserve" x="0.0" y="447.6" style="animation-delay:1.14s">*@:,|@@#$:1..&amp;#~#1#;:./%~0#0,&lt;=.+@.;1;#|=$|&lt;-=#+*&gt;;+&gt;&lt;~*|~.@/1|@*/~% :&lt;-&lt;/&amp;.&amp;=+=:*@&lt;&amp;0&lt;&amp;|.0@1~&lt;@+&lt;        - $1</text>
+<text class="px" xml:space="preserve" x="0.0" y="447.6" style="animation-delay:1.22s">-:-,....,..,.,,.,..,....,,,,.,,,,,.,,,:,:,:,,,..,:,,,,,:::,,.:=:,,.  ..,-,,,..,.,.........,:~.</text>
+<text class="nz" xml:space="preserve" x="0.0" y="456.0" style="animation-delay:1.08s">;#~/:|0;.@,&amp;,@+:=0~&amp;&amp;|&amp;:1|*:@0+~.-~;+0%0~##&amp;+1&lt;1+&amp;/=@@$&lt;+&lt;+~~&gt;%@1:.*%..&lt;/+:%11&amp;&lt;1|=&lt;&gt;=|-,,*=##   ~       =           @</text>
+<text class="nz" xml:space="preserve" x="0.0" y="456.0" style="animation-delay:1.16s">=/&gt;&gt;/01~$.+&amp;,;&amp;|&amp;$;@/&lt;#@+%&gt;0&amp;/|+/,++%::~&amp;;/-.:+=$~/#-#@*=#;0&lt;*1&amp;*,1&amp;~++0;;&gt;.+&lt;@.,:&lt;1%0/&gt;+=.-&lt;@  -$      &amp;           &lt;</text>
+<text class="px" xml:space="preserve" x="0.0" y="456.0" style="animation-delay:1.24s">-::,.,.,........,...,,.,.:,,:,,,,,,.,,:,,:,:,.,..,:,,,..,-:::.,-::--:......,..,..,,.......,,-:</text>
+<text class="nz" xml:space="preserve" x="0.0" y="464.5" style="animation-delay:1.10s">1@#&gt;%&amp;.%&lt;$=,;1=@&amp;|&amp;~10%1$$1%#~.1&lt;&gt;*@=+&lt;$-*~&lt;/$%+|&amp;%0:*$~+&amp;&lt;1|:1:0,|&amp;~%@|&gt;1/#&amp;;#-&amp;/*&amp;#-@@+:;&amp;&gt;|*  $ .          0&lt;      %</text>
+<text class="nz" xml:space="preserve" x="0.0" y="464.5" style="animation-delay:1.18s">1&amp;#/&amp;/.0-#&lt;+/+#*/1~1&amp;&gt;.,&gt;@&lt;~&gt;*/~@*~&amp;&amp;$:&lt;@0&amp;=.,&gt;+*0~*10#*|/,~~*#;%+;~|0+&gt;*1/,;&amp;=|@.+&gt;./|:#%=$,,#  %     /       +</text>
+<text class="px" xml:space="preserve" x="0.0" y="464.5" style="animation-delay:1.26s">,:::,:,::,:..,.,..,..,,.,,::,:,:,,:,,,,,.:::-,,:...,:,:,..,::-,,:,:-==-,.,,,,....,......,,,,:~,</text>
+<text class="nz" xml:space="preserve" x="0.0" y="472.9" style="animation-delay:1.12s">=&amp;.++0$;+%/|;@&gt;1@&amp;*:@://1~=/:1*/$|##&gt;&gt;=~.0--0$+1*@&lt;:;&amp;*@*1-=#1&lt;#;1=-&gt;,,;*/@%|=%&amp;:=||;,%-=#$%,.%   : &gt; ||              @</text>
+<text class="nz" xml:space="preserve" x="0.0" y="472.9" style="animation-delay:1.20s">&amp;$$&gt;0,*0@*&gt;-0=1000./#:|||+:,$&lt;0&gt;#%0;+@:|0*&amp;&amp;1.+~&lt;&gt;@=0-&lt;;+-;.&lt;-=&gt;/;#&gt;:-@-.10&lt;/=$0/-#=#&lt;1#0%:=&lt;/||  @         @ .       &amp;</text>
+<text class="px" xml:space="preserve" x="0.0" y="472.9" style="animation-delay:1.28s">,,,,.,.::,-:::.,,.,,,.,,.:::,::,:,,:,,,,,,:::-::,,,.,::-:,,,,,--,:,..:==~:,:=-:-+-....,.,,,,:--</text>
+<text class="nz" xml:space="preserve" x="0.0" y="481.4" style="animation-delay:1.14s">~*;&amp;~&gt;;;:,#0,0+:.%|$&lt;%&amp;,|:=+-&gt;:&amp;,$|-&amp;.:1$~~;~$&amp;+&lt;@|@-~1*$$*$-&lt;.,&lt;,~-*&lt;;,;1&gt;#~1--1&gt;;&lt;01+1#.|,,0&lt;;          &amp; ~   * $   #</text>
+<text class="nz" xml:space="preserve" x="0.0" y="481.4" style="animation-delay:1.22s">=&lt;=-@$=%&lt;1;+/*,/@/&lt;=&amp;,:=|:+++1$~/-1@|&amp;:*-@$&amp;:@;=$|&lt;/-:%/%#~@&amp;&lt;0~*/&lt;&amp;&amp;&gt;=#;&lt;$10+-.%|;&amp;&lt;@10&amp;.%*&lt;~~$  /    | &gt; &amp;</text>
+<text class="px" xml:space="preserve" x="0.0" y="481.4" style="animation-delay:1.30s">,.,.,..,..,.:-::,.,:-,,,,::::::::-,::::,,,,-:--:-:,,....::::,:,:---,,..:~+~-+==+=::,,.,,,,,,::-,</text>
+<text class="nz" xml:space="preserve" x="0.0" y="489.8" style="animation-delay:1.16s">;+;~.&amp;,&lt;1-&lt;0#&gt;$|:1&amp;#1/,+%.-=/=*-+|&gt;+--+,&gt;//0.;&lt;=#;/@&amp;@=1+;@,#%:@;@::&gt;*~--,:=+1$~|*@$,;~-~&lt;+:;$.&gt;     -@ %           |</text>
+<text class="nz" xml:space="preserve" x="0.0" y="489.8" style="animation-delay:1.24s">.:#;*.@&lt;0/.$&lt;-&gt;1#$,*;&amp;#&gt;+=+*;-.+=@&amp;#-.10|$&gt;|~@1%#&amp;.*&gt;#~#,:,|./&lt;10,1;./-#;|$-+:.#/=*,:~**@,.1=&amp;/=  0      -|     $    0</text>
+<text class="px" xml:space="preserve" x="0.0" y="489.8" style="animation-delay:1.32s">....,.,,.,,.,,,~~:,,,-:.-:,::-,-:--:::--:,,,:,--:~:::,...,,,:,:,,,:-::..,:~-+*~=--::,.,,,,,:::~~</text>
+<text class="nz" xml:space="preserve" x="0.0" y="498.3" style="animation-delay:1.18s"># |. @@.&lt;-%/~/1*#+==&lt;/;:#1,.%;%0*=%%+-,|1/1.*:*,&lt;&lt;=|*-#|,;~@-|0:=|@-*+@+$.=|=%%&gt;~&amp;~*#.-+|0,-$;&amp;+1#                 &lt;1%</text>
+<text class="nz" xml:space="preserve" x="0.0" y="498.3" style="animation-delay:1.26s">~ %~&amp;&lt;-$|*%.*,%&amp;%*0.,$@$$||&amp;~-/%&gt;:#;1-~~++-,$~/.+%:&gt;&lt;,*,&amp;%$=&amp;:1-0~.;,=&gt;%&lt;:@%/0&lt;=@&gt;=&amp;|&lt;*@1+*0=&gt;|#$    &amp;    $  $</text>
+<text class="px" xml:space="preserve" x="0.0" y="498.3" style="animation-delay:1.34s">. .. ....,,.,..:--~,,:,-,::::--:-:-~--:::,,:::,---~-~-::,...,,,::,,:::-:...-@&amp;*~~-::--,,,,:::,-~,</text>
+<text class="nz" xml:space="preserve" x="0.0" y="506.7" style="animation-delay:1.20s">:@.:&amp;*#/1$01&lt;|@/+@-*:=,--:@-0&amp;0-=&gt;&gt;$&amp;-~;;#&gt;&lt;$&amp;;1-&lt;#.+/:/*%,$*%@&lt;*+&amp;&amp;*=/&amp;:0$,&lt;.;=.~=+|0&amp;*11=-.$@0/  ;         ~</text>
+<text class="nz" xml:space="preserve" x="0.0" y="506.7" style="animation-delay:1.28s">&gt;+&lt;/0&lt;;,.%,*$;:*&amp;1#.$@$|0-&amp;=-:##0+0&amp;@**&amp;+~|&amp;*0+=&gt;1#/.$:*#1+&amp;%..%/--*-$-&gt;/&amp;%%+@**&lt;,&amp;@&amp;$~+%#,;;&amp;/:1 #.+         *      |</text>
+<text class="px" xml:space="preserve" x="0.0" y="506.7" style="animation-delay:1.36s">:,:-,,:....,:,,:,-~~~,:-::-,-------=~~-::,,::::,-::--~~--,:,.,,,,::,,--==,,-@@&amp;@+~:~=~:.,,::,::~-</text>
+<text class="nz" xml:space="preserve" x="0.0" y="515.2" style="animation-delay:1.22s">~+*/01+%.&amp;;~=:%=,$~+.-=;@=@-&gt;~,:-$@|-/%:/&amp;~&amp;.,&amp;=~/.1@&amp;=&gt;#%&gt;,++@:#&amp;#-1~-+%@@+|*&lt;&amp;&amp;+&amp;~#,//$&gt;*#.-,.=.     &amp;  .   %</text>
+<text class="nz" xml:space="preserve" x="0.0" y="515.2" style="animation-delay:1.30s">1|,&amp;.=&amp;/&amp;&gt;&amp;;&amp;+;##=:@&gt;&gt;,&gt;,@+0&gt;~$%1:~1%;@#&gt;*1&amp;1&gt;|-;&amp;&amp;~#,@~&gt;%1,&gt;-|,@+-&gt;#-@*=-,&gt;...&gt;$.*;&gt;%,#&amp;@;-.$0==,   |   1  &lt;/   $$, @</text>
+<text class="px" xml:space="preserve" x="0.0" y="515.2" style="animation-delay:1.38s">~--~--~~:-:,.,,,:::-=~::-:~--~-~-=~-~-~-::,,:,,:,:::~-~-~~:-,,,,,,,,,,,,~*~~@&amp;@&amp;%@+=~=~:,:::::::-.</text>
+<text class="nz" xml:space="preserve" x="0.0" y="523.6" style="animation-delay:1.24s">-@./.0|#:+:+~#&gt;*;$:&gt;|+=~-#:+-|&gt;+;:0$~:~1&gt;-:%/#&gt;+-#=$.|~-0|.-&amp;=/&lt;.|#&gt;#.%&amp;%0,:/-:$;-~~01&lt;%-;&amp;#.@,|.&amp;1   +  +        $    *</text>
+<text class="nz" xml:space="preserve" x="0.0" y="523.6" style="animation-delay:1.32s">%=:=@/;=--|&lt;0*&lt;$#%&amp;$*@;:0&amp;@$,-&amp;|&gt;|$=/1-%+/@1&amp;%*/;$&amp;1~||.-1=/$|=,#1-;,&amp;&amp;%~&lt;1+=0#+0;::,/;*#&gt;;.:+=&gt;$=       &lt;          1</text>
+<text class="px" xml:space="preserve" x="0.0" y="523.6" style="animation-delay:1.40s">::,--:---~~---,,:,:-~++~~~:-~~--~~~~~-~~:--:,:::::--::--:~---::,,,,::,,:,~~,~&amp;@+%%@*+==:,,::::--~,</text>
+<text class="nz" xml:space="preserve" x="0.0" y="532.1" style="animation-delay:1.26s">&gt;=;%$%*+&gt;*+*-|&amp;|#&amp;/#,%&amp;=**/:%+*&lt;~#*=@&amp;*$*/.$=@@.&lt;~-..&amp;|=/$@=@+,0#0.,&lt;.@+&gt;:*=%@@0&gt;+$/++&gt;@@/#*~%#%|,    &gt;%~  1    =*</text>
+<text class="nz" xml:space="preserve" x="0.0" y="532.1" style="animation-delay:1.34s">-=#0,:,:~,&lt;|0:~&gt;|%=&gt;&lt;-,%&lt;=#=..%%#:,,+=:%:/#-/$*0-@//0&amp;,0#&gt;**:;~#+10-$%.&lt;.=,~@%&amp;&gt;/*:&amp;|-&gt;|$:#$,=;%1%     :, *           &amp;#</text>
+<text class="px" xml:space="preserve" x="0.0" y="532.1" style="animation-delay:1.42s">,..,..,..:::~~--:,::-=*==~~~~-~~~-~~=~~=~---:,,,:,~&amp;=::--:~-~---::::,:::-:::.+%=+%%&amp;*=-,.,:::---~:</text>
+<text class="nz" xml:space="preserve" x="0.0" y="540.5" style="animation-delay:1.28s">+;.%$#,,--&gt;,;;~,@;.&gt;1$~$*:&gt;&amp;&gt;$$/=&amp;*&gt;$;*$;,+$==&gt;.,--0%,#,+%=@+.-0%|~%$&lt;.&amp;*|*&amp;/*01,00-;&amp;$&gt;-0&lt;&gt;&gt;-1,1;=     =         ,    .</text>
+<text class="nz" xml:space="preserve" x="0.0" y="540.5" style="animation-delay:1.36s">&amp;&amp;/%&gt;,:+~* 1*:+:&lt;;#*==~%0.&amp;~.&amp;$#=1@$~/&lt;:$|@:$=.|&gt;@-0%+-%+0|&lt;#1-=+-#|&gt;+~.,;&amp;#-/;0%&lt;.;+&gt;-$1.$:&gt;=%|&lt;~+   &gt;   +   +=     &gt; &lt;</text>
+<text class="px" xml:space="preserve" x="0.0" y="540.5" style="animation-delay:1.44s">.....,..,. .,.,----:::+*+++~=~-~-~~~~=~~=--::,:::,-@*-:,--:~-~---:-::::::::-~-%*=*@@@~,:::::-::--~.</text>
+<text class="nz" xml:space="preserve" x="0.0" y="549.0" style="animation-delay:1.30s">&gt;;+$@$&lt;#&gt;&lt;,0;=&amp;.//%&gt;1|0//.+%$~-|/&amp;@$.-%&lt;$,&lt;&lt;&amp;,-&gt;%$,&amp;/=%,*0/@0&lt;0;;1;&gt;.&amp;+%==10||00&lt;-&amp;$,~+&gt;/;,&lt;#%&gt;@~&amp;#|     -  =;      $</text>
+<text class="nz" xml:space="preserve" x="0.0" y="549.0" style="animation-delay:1.38s">%%0|+1&lt;+#1-/~%~:*$/:*+~&gt;*&amp;#+&amp;/$*-=;/@;+$/@$&lt;&gt;;,%,0|%-,/|+&amp;&amp;.~*$|&gt;~=,@,=,~.=@+:,/$-%:01|$@%&gt;,0:+.=%&lt;  ;   &gt;  &amp;|  + &amp;|</text>
+<text class="px" xml:space="preserve" x="0.0" y="549.0" style="animation-delay:1.46s">.,.....,,..,..,,,-~:---+*++===---~~~~~~~==~~::-:::,-+~::,::--:-----:::::::--=~@&amp;===~+~::::::::::-~:</text>
+</g>
+<text class="name" x="690" y="196">OLAF ZAGRABA</text>
+<line class="rule" x1="690" y1="222" x2="1110" y2="222"/>
+<g class="ln" style="animation-delay:1.53s">
+<text class="k" x="690" y="280">&gt; whoami</text>
+<text class="v" x="690" y="304">  developer  ·  AI &amp; automation  ·  Krakow, PL</text>
+</g>
+<g class="ln" style="animation-delay:1.63s">
+<text class="k" x="690" y="342">&gt; building</text>
+<text class="v" x="690" y="366">  AI chatbots · SaaS platform · iOS app</text>
+</g>
+<g class="ln" style="animation-delay:1.73s">
+<text class="k" x="690" y="404">&gt; stack</text>
+<text class="v" x="690" y="428">  Python · JavaScript · PHP · Swift · React</text>
+</g>
+<g class="ln" style="animation-delay:1.83s">
+<text class="k" x="690" y="466">&gt; for</text>
+<text class="v" x="690" y="490">  small and mid-sized companies</text>
+</g>
+<text class="foot" x="690" y="538">github.com/olafzagraba</text>
+<rect class="caret" x="862" y="526" width="8" height="15"/>
+</svg>
