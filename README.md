@@ -51,12 +51,17 @@ A lot of what I know comes from working with real e-commerce businesses — mult
   </a>
 </p>
 
-## Notes from production
+## Experience
 
-- If it only works on localhost, it isn't finished.
-- Analytics you can't trust are worse than no analytics at all.
-- A performance problem is often an infrastructure problem wearing a frontend disguise.
-- In a seasonal business, stability before peak traffic can be worth more than the next feature.
+Before building my own products, I spent time learning how software is actually delivered for real clients.
+
+At **DreamCode.cc**, I worked as a **Java plugin developer** as well as across **front-end and back-end development**, building custom solutions around real requirements rather than tutorial projects.
+
+I later worked with **Nyord.pl** as a **front-end developer**, focusing on turning designs and business ideas into clean, usable web experiences, and with **GlobalCode** on the **back-end**, where I gained more experience with application logic and the systems working behind the interface.
+
+Across these roles and independent projects, I've completed **dozens of client assignments and worked with dozens of satisfied customers**. That experience taught me something more valuable than simply knowing another framework: how to listen, understand what someone actually needs, communicate clearly and deliver something they can genuinely use.
+
+Eventually, I decided to take that experience and move in my own direction — **building startups, products and systems from the ground up instead of only contributing to someone else's.**
 
 ## Work with me
 
